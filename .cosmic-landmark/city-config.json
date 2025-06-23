@@ -55,6 +55,9 @@
       }
     },
     "tutorials": {
-      "customTutorials": []
+      "customTutorials": [{
+        "name": "Tutorials",
+        "path": "tutorials/tutorial.md"
+      }]
     }
   }
