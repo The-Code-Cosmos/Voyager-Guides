@@ -57,7 +57,7 @@
     "tutorials": {
       "customTutorials": [{
         "name": "Tutorials",
-        "path": "tutorials/tutorial.md"
+        "path": ".cosmic-landmark/tutorials/tutorial.md"
       }]
     }
   }
