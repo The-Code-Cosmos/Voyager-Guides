@@ -1,0 +1,60 @@
+{
+    "version": "1.0",
+    "display": {
+      "readme": {
+        "path": ""
+      }
+    },
+    "theme": {
+      "background": {
+        "primary": "#102040",
+        "secondary": "#1a2d4a",
+        "tertiary": "#22335a",
+        "hover": "#ffd600"
+      },
+      "text": {
+        "primary": "#fffbe6",
+        "secondary": "#ffd600",
+        "tertiary": "#ffe066",
+        "quaternary": "#bfa700",
+        "error": "#ff6f61"
+      },
+      "border": {
+        "default": "#ffd600",
+        "hover": "#bfa700",
+        "accent": "#ffe066"
+      },
+      "status": {
+        "owner": {
+          "text": "#102040",
+          "background": "#ffd600"
+        },
+        "maintainer": {
+          "text": "#102040",
+          "background": "#ffe066"
+        },
+        "contributor": {
+          "text": "#ffd600",
+          "background": "#1a2d4a"
+        },
+        "default": {
+          "text": "#ffe066",
+          "background": "#102040"
+        }
+      },
+      "loading": {
+        "spinner": "#ffd600",
+        "text": "#ffe066"
+      },
+      "button": {
+        "primary": {
+          "background": "#ffd600",
+          "hover": "#bfa700",
+          "text": "#102040"
+        }
+      }
+    },
+    "tutorials": {
+      "customTutorials": []
+    }
+  }
