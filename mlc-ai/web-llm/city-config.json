@@ -6,7 +6,17 @@
       }
     },
     "tutorials": {
-      "customTutorials": []
+      "customTutorials": [
+        {
+            "name": "Welcome to Web-LLM",
+            "path": "README.md",
+            "description": "Learn the basics of Web-LLM",
+            "icon": "",
+            "difficulty": "beginner",
+            "order": 1
+        }
+
+      ]
     },
     "integrations": {
       "discord": {
