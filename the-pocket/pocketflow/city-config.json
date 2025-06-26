@@ -6,7 +6,16 @@
       }
     },
     "tutorials": {
-      "customTutorials": []
+      "customTutorials": [
+        {
+            "name": "Welcome to PocketFlow",
+            "path": "README.md",
+            "description": "Learn the basics of PocketFlow",
+            "icon": "",
+            "difficulty": "beginner",
+            "order": 1
+        }
+      ]
     },
     "theme": {
       "background": {
