@@ -17,6 +17,16 @@
         }
       ]
     },
+    "integrations": {
+      "discord": {
+        "enabled": true,
+        "url": "https://discord.gg/hUHHE9Sa6T"
+      },
+      "docs": {
+        "enabled": true,
+        "url": "https://the-pocket.github.io/PocketFlow/"
+      }
+    },
     "theme": {
       "background": {
         "primary": "#0d1117",
