@@ -135,47 +135,6 @@
       }
     },
     {
-      "id": "project-docs",
-      "name": "Project Documentation",
-      "type": "docs",
-      "category": "workspace-scoped",
-      "pillar": "foundationHealth",
-      "description": "Documentation files and folders at package level",
-      "patterns": [
-        {
-          "id": "docs-files",
-          "name": "Documentation & Licensing Files",
-          "patterns": [
-            { "type": "exact", "pattern": "README.md" },
-            { "type": "exact", "pattern": "readme.md" },
-            { "type": "exact", "pattern": "CONTRIBUTING.md" },
-            { "type": "exact", "pattern": "LICENSE" },
-            { "type": "exact", "pattern": "LICENSE.md" },
-            { "type": "exact", "pattern": "CHANGELOG.md" },
-            { "type": "exact", "pattern": "AUTHORS" },
-            { "type": "exact", "pattern": "CONTRIBUTORS" }
-          ]
-        },
-        {
-          "id": "docs-folders",
-          "name": "Documentation Folders",
-          "patterns": [
-            { "type": "glob", "pattern": "docs/**" },
-            { "type": "glob", "pattern": "documentation/**" },
-            { "type": "glob", "pattern": "doc/**" }
-          ]
-        }
-      ],
-      "dependsOn": ["package-root"],
-      "scoping": {
-        "respectWorkspaceBoundaries": true,
-        "searchAtPackageLevel": true
-      },
-      "ui": {
-        "section": "codeAssistant"
-      }
-    },
-    {
       "id": "github-actions",
       "name": "GitHub CI/CD",
       "type": "ci-cd",
