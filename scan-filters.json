@@ -40,7 +40,15 @@
         { "type": "glob", "pattern": "**/vendor/**" },
         { "type": "glob", "pattern": ".pnpm/**" },
         { "type": "glob", "pattern": "bower_components/**" }
-      ]
+      ],
+      "generateWarning": {
+        "layerId": "committed-node-modules",
+        "layerName": "⚠️ Committed node_modules",
+        "severity": "error",
+        "message": "node_modules directory found in repository - should be excluded from version control",
+        "recommendation": "Add node_modules to .gitignore and remove from version control with: git rm -r --cached node_modules && echo 'node_modules/' >> .gitignore",
+        "impact": "Large repository size, slow clones, potential version conflicts, and security vulnerabilities"
+      }
     },
     {
       "id": "scan-filter-build-outputs",
